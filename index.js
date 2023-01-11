@@ -95,7 +95,7 @@ const testToFollow = async (id) => {
 
 //test
  if(follower.meta.result_count>=100){
-   //await twitterClient.v2.follow(myAccountId,id);
+   await twitterClient.v2.follow(myAccountId,id);
    console.log("follow");
  }
  else{
