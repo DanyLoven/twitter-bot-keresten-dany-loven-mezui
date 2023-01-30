@@ -116,6 +116,7 @@ db.all(sql,[],(err,rows)=>{
 })
 }
 
+// you can test the following functions below (remove comment bars)
 
   //createTable();
   //dropTable();
